@@ -1,5 +1,5 @@
-Globaliation Pipeline Common Files
-==================================
+Globalization Pipeline Common Files
+===================================
 
 
 This repo contains common files for the 
