@@ -5,6 +5,9 @@ Globalization Pipeline Common Files
 This repo contains common files for the 
 [IBM Globalization Pipeline](https://www.ng.bluemix.net/docs/#services/GlobalizationPipeline/index.html) SDK projects.
 
+![Globalization Pipeline Logo](images/catalog_icon.png "Globalization Pipeline")
+
+
 DOWNLOAD
 --------
 
