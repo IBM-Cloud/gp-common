@@ -19,14 +19,13 @@
 
 ## Overview
 
-Globalziation Pipeline BETA service will be retired in September 2016.
-If you want to keep the translation stored in an instance of Globalization
-Pipeline BETA service, you can migrate the data to a new instance of
-Globalization Pipeline service.
+The following information outlines how to migrate the translation stored
+in an instance of the IBM Globalization Pipeline Beta service to a new
+instance of the IBM Globalization Pipeline GA service.
 
 ## Step 1 - Download Globalization Pipeline CLI tool
 
-This migration instruction utilizes [Globlization Pipeline
+This migration instruction utilizes [Globalization Pipeline
 CLI tool](https://github.com/IBM-Bluemix/gp-java-tools). The command
 used for migrating data is available gp-cli-1.1.0. To run the
 tool, you need Java SE Runtime Environment 7 or later version.
@@ -93,8 +92,8 @@ All bundles were successfully copied to the specified service instance.
 
 ## Step 5 - Update credentials in your application code (optional)
 
-If your application dynamically access the BETA intance using one of
-Globalization Pipleline SDK previously, and service credentials are
+If your application dynamically access the BETA instance using one of
+Globalization Pipeline SDK previously, and service credentials are
 manually set in your application, replace the one for BETA with the
 new instance's credentials.
 
