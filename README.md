@@ -101,6 +101,11 @@ In order to access the service instance through the RESTful API, SDKs, or Plug-i
 
 **Caution!** The default credentials shown above provide complete access to the service instance, including the ability to delete and modify bundles. When you are using the service in a production app, it is recommended that you create a new **Reader** account through the **API Users** tab. The Reader account can only read bundle data.
 
+Beta Migration
+--------------
+If you have Globalization Pipeline BETA service instances previously created and want
+to migrate them to new service instances, see [Globalization Pipeline BETA Migration Guide](beta-migration.md).
+
 Contributing
 ------------
 See [CONTRIBUTING.md](CONTRIBUTING.md)
