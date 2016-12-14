@@ -13,6 +13,9 @@ IBM Globalization Pipeline is a DevOps integrated application translation manage
 This repository contains common files and information for the
 [IBM Globalization Pipeline](https://www.ng.bluemix.net/docs/#services/GlobalizationPipeline/index.html) service and related tools.
 
+To connect with the IBM Globalization Pipeline open source community, check out the
+[developerWorks Open](https://developer.ibm.com/open/ibm-bluemix-globalization-pipeline-service/)
+site.
 
 <!-- the download anchor is required for backwards compatibility  -->
 SDKs and Plug-ins<a name="download"></a>
