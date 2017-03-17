@@ -26,7 +26,7 @@ There are a number of SDKs/Plug-ins available for this service. Select one below
 * Python: [SDK](https://github.com/IBM-Bluemix/gp-python-client)
 * Java: [SDK](https://github.com/IBM-Bluemix/gp-java-client) | [Tools](https://github.com/IBM-Bluemix/gp-java-tools)
 * Angular: [SDK](https://github.com/IBM-Bluemix/gp-angular-client)
-* Node.js: [SDK](https://github.com/IBM-Bluemix/gp-js-client) | [Sample](https://github.com/IBM-Bluemix/gp-nodejs-sample)
+* Node.js: [SDK](https://github.com/IBM-Bluemix/gp-js-client) | [Sample](https://github.com/IBM-Bluemix/gp-nodejs-sample) | [Flattener](https://github.com/IBM-Bluemix/gp-js-flatten/)
 * Cordova: [SDK](https://github.com/IBM-Bluemix/gp-cordova-plugin)
 * Ruby: [SDK](https://github.com/IBM-Bluemix/gp-ruby-client) | [Sample](https://github.com/IBM-Bluemix/gp-ruby-sample)
 * Urban Code Deploy: [Plugin](https://github.com/IBM-Bluemix/gp-ucd-plugin)
