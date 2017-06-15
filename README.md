@@ -30,6 +30,7 @@ There are a number of SDKs/Plug-ins available for this service. Select one below
 * Cordova: [SDK](https://github.com/IBM-Bluemix/gp-cordova-plugin)
 * Ruby: [SDK](https://github.com/IBM-Bluemix/gp-ruby-client) | [Sample](https://github.com/IBM-Bluemix/gp-ruby-sample)
 * Urban Code Deploy: [Plugin](https://github.com/IBM-Bluemix/gp-ucd-plugin)
+* iOS: [SDK](https://github.com/IBM-Bluemix/gp-ios-client)
 
 Quick Start Guide
 -----------------
