@@ -23,15 +23,16 @@ SDKs and Plug-ins<a name="download"></a>
 
 There are a number of SDKs/Plug-ins available for this service. Select one below for more details on how to use it.
 
-* Python: [SDK](https://github.com/IBM-Bluemix/gp-python-client)
-* Java: [SDK](https://github.com/IBM-Bluemix/gp-java-client) | [Tools](https://github.com/IBM-Bluemix/gp-java-tools)
-* Angular: [SDK](https://github.com/IBM-Bluemix/gp-angular-client)
-* Node.js: [SDK](https://github.com/IBM-Bluemix/gp-js-client) | [Sample](https://github.com/IBM-Bluemix/gp-nodejs-sample) | [Flattener](https://github.com/IBM-Bluemix/gp-js-flatten/)
-* Cordova: [SDK](https://github.com/IBM-Bluemix/gp-cordova-plugin)
-* Ruby: [SDK](https://github.com/IBM-Bluemix/gp-ruby-client) | [Sample](https://github.com/IBM-Bluemix/gp-ruby-sample)
+* Python: [SDK](https://github.com/IBM-Cloud/gp-python-client)
+* Java: [SDK](https://github.com/IBM-Cloud/gp-java-client) | [Tools](https://github.com/IBM-Cloud/gp-java-tools)
+* Angular 1: [SDK](https://github.com/IBM-Cloud/gp-angular-client)
+* Angular 2: [SDK](https://github.com/IBM-Cloud/gp-angular2-client)
+* Node.js: [SDK](https://github.com/IBM-Cloud/gp-js-client) | [Sample](https://github.com/IBM-Cloud/gp-nodejs-sample) | [Flattener](https://github.com/IBM-Cloud/gp-js-flatten/)
+* Cordova: [SDK](https://github.com/IBM-Cloud/gp-cordova-plugin)
+* Ruby: [SDK](https://github.com/IBM-Cloud/gp-ruby-client) | [Sample](https://github.com/IBM-Cloud/gp-ruby-sample)
 * Jenkins: [Plugin](https://github.com/IBM-Cloud/gp-jenkins)
-* Urban Code Deploy: [Plugin](https://github.com/IBM-Bluemix/gp-ucd-plugin)
-* iOS: [SDK](https://github.com/IBM-Bluemix/gp-ios-client)
+* Urban Code Deploy: [Plugin](https://github.com/IBM-Cloud/gp-ucd-plugin)
+* iOS: [SDK](https://github.com/IBM-Cloud/gp-ios-client)
 
 Quick Start Guide
 -----------------
@@ -40,9 +41,9 @@ Below are some steps to help you quickly get started. For more detailed informat
 **Lets get started!**
 
 ### 1. Create a new Globalization Pipeline service instance
-Head to the [Bluemix Catalog](https://new-console.ng.bluemix.net/catalog/) and look for the Globalization Pipeline service - it should be under the DevOps category.
+Head to the [IBM Cloud Catalog](https://console-regional.ng.bluemix.net/catalog/?search=Globalization%20Pipeline) and look for the Globalization Pipeline service - it should be under the DevOps category.
 
-![Bluemix Catalog](images/catalog.png "Globalization Pipeline")
+![IBM Cloud Catalog](images/catalog.png "Globalization Pipeline")
 
 Once you click the service icon, you should be taken to the Globalization Pipeline service page where you will find more information about the service.
 
@@ -53,7 +54,7 @@ On this page:
 3. Select a plan
 4. Click Create
 
-![Bluemix Catalog Entry](images/catalog-entry.png "Globalization Pipeline catalog entry")
+![IBM Cloud Catalog Entry](images/catalog-entry.png "Globalization Pipeline catalog entry")
 
 ### 2. Globalization Pipeline Dashboard
 Click on the new service instance to go to the Globalization Pipeline **Dashboard**.
@@ -96,13 +97,13 @@ You can now click on one of the Target languages to view the  translated message
 You can now download the translated messages by clicking the **DOWNLOAD** button. Or you can access the translated messages directly in your app by using one of the SDKs or Plug-ins. To get started, head to the [SDKs and Plug-ins](#download) section.
 
 ### 4. Credentials
-In order to access the service instance through the RESTful API, SDKs, or Plug-ins, you will need to provide the necessary credentials. To see the credentials, find the service instance in the Bluemix dashboard and click **View Credentials**:
+In order to access the service instance through the RESTful API, SDKs, or Plug-ins, you will need to provide the necessary credentials. To see the credentials, find the service instance in the IBM Cloud dashboard and click **View Credentials**:
 
 ![New Instance](images/new-instance.png "New Instance")
 
 ![Credentials](images/creds.png "Credentials")
 
-**Note:** If the service instance is connected to an app on Bluemix, the credentials can be accessed from the app's environment variables - the SDKs automatically take care of this.
+**Note:** If the service instance is connected to an app on IBM Cloud, the credentials can be accessed from the app's environment variables - the SDKs automatically take care of this.
 
 **Caution!** The default credentials shown above provide complete access to the service instance, including the ability to delete and modify bundles. When you are using the service in a production app, it is recommended that you create a new **Reader** account through the **API Users** tab. The Reader account can only read bundle data.
 
