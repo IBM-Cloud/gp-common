@@ -30,7 +30,7 @@ There are a number of SDKs/Plug-ins available for this service. Select one below
 * Node.js: [SDK](https://github.com/IBM-Cloud/gp-js-client) | [Sample](https://github.com/IBM-Cloud/gp-nodejs-sample) | [Flattener](https://github.com/IBM-Cloud/gp-js-flatten/)
 * Cordova: [SDK](https://github.com/IBM-Cloud/gp-cordova-plugin)
 * Ruby: [SDK](https://github.com/IBM-Cloud/gp-ruby-client) | [Sample](https://github.com/IBM-Cloud/gp-ruby-sample)
-* Jenkins: [Plugin](https://github.com/IBM-Cloud/gp-jenkins)
+* Jenkins: [Plugin](https://jenkinsci.github.io/ibm-g11n-pipeline-plugin/)
 * Urban Code Deploy: [Plugin](https://github.com/IBM-Cloud/gp-ucd-plugin)
 * iOS: [SDK](https://github.com/IBM-Cloud/gp-ios-client)
 
