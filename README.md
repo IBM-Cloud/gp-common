@@ -6,11 +6,7 @@
 IBM Globalization Pipeline is a DevOps integrated application translation management service that you can use to rapidly translate and release cloud and mobile applications to your global customers. Access IBM Globalization Pipeline capabilities through its dashboard, RESTful API, or integrate it seamlessly into your application's Delivery Pipeline.
 
 This repository contains common files and information for the
-[IBM Globalization Pipeline](https://www.ng.bluemix.net/docs/#services/GlobalizationPipeline/index.html) service and related tools.
-
-To connect with the IBM Globalization Pipeline open source community, check out the
-[developerWorks Open](https://developer.ibm.com/open/ibm-bluemix-globalization-pipeline-service/)
-site.
+[IBM Globalization Pipeline](https://cloud.ibm.com/docs/services/GlobalizationPipeline) service and related tools.
 
 <!-- the download anchor is required for backwards compatibility  -->
 SDKs and Plug-ins<a name="download"></a>
@@ -31,14 +27,14 @@ There are a number of SDKs/Plug-ins available for this service. Select one below
 
 Quick Start Guide
 -----------------
-Below are some steps to help you quickly get started. For more detailed information about the service, please visit the official [Globalization Pipeline  documentation](https://console.ng.bluemix.net/docs/services/GlobalizationPipeline/index.html) page.
+Below are some steps to help you quickly get started. For more detailed information about the service, please visit the official [Globalization Pipeline  documentation](https://cloud.ibm.com/docs/services/GlobalizationPipeline) page.
 
 **Lets get started!**
 
 ### 1. Create a new Globalization Pipeline service instance
 Head to the [IBM Cloud Catalog](https://cloud.ibm.com/catalog?search=Globalization%20Pipeline) and look for the Globalization Pipeline service - it should be under the `Developer Tools` category.
 
-![IBM Cloud Catalog](images/catalog.png "Globalization Pipeline")
+![IBM Cloud Catalog](images/catalog.png "Globalization Pipeline tile in catalog")
 
 Once you click the service icon, you should be taken to the Globalization Pipeline service page where you will find more information about the service.
 
