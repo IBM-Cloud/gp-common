@@ -112,10 +112,6 @@ Once the credential is created, you can view it on the same page:
 
 **Note:** If the service instance is connected to an app on IBM Cloud, the credentials can be accessed from the app's environment variables - the SDKs automatically take care of this.
 
-Beta Migration
---------------
-If you have Globalization Pipeline BETA service instances previously created and want
-to migrate them to new service instances, see [Globalization Pipeline BETA Migration Guide](beta-migration.md).
 
 Contributing
 ------------
