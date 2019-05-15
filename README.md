@@ -1,12 +1,7 @@
-Globalization Pipeline
+![Globalization Pipeline Icon](images/icon.png) Globalization Pipeline
 ======================
 
 <!-- ![Globalization Pipeline Logo](images/icon.png "Globalization Pipeline") -->
-
-<p align="center">
-  <img src="images/icon.png"/>
-</p>
-
 
 IBM Globalization Pipeline is a DevOps integrated application translation management service that you can use to rapidly translate and release cloud and mobile applications to your global customers. Access IBM Globalization Pipeline capabilities through its dashboard, RESTful API, or integrate it seamlessly into your application's Delivery Pipeline.
 
@@ -41,7 +36,7 @@ Below are some steps to help you quickly get started. For more detailed informat
 **Lets get started!**
 
 ### 1. Create a new Globalization Pipeline service instance
-Head to the [IBM Cloud Catalog](https://console-regional.ng.bluemix.net/catalog/?search=Globalization%20Pipeline) and look for the Globalization Pipeline service - it should be under the DevOps category.
+Head to the [IBM Cloud Catalog](https://cloud.ibm.com/catalog?search=Globalization%20Pipeline) and look for the Globalization Pipeline service - it should be under the `Developer Tools` category.
 
 ![IBM Cloud Catalog](images/catalog.png "Globalization Pipeline")
 
@@ -50,8 +45,9 @@ Once you click the service icon, you should be taken to the Globalization Pipeli
 On this page:
 
 1. Provide a name for your service instance
-2. Connect to an application (optional)
-3. Select a plan
+2. Choose a region/location where you want to provision service instance
+3. Select a resource group you want the service instance to belong to
+4. Select a plan
 4. Click Create
 
 ![IBM Cloud Catalog Entry](images/catalog-entry.png "Globalization Pipeline catalog entry")
@@ -64,7 +60,9 @@ Click on the new service instance to go to the Globalization Pipeline **Dashboar
 1. The **Getting Started** tab provides some general information about the service and some useful links.
 2. The **Bundles** tab allows you to view your bundles and create new bundles.
 3. The **API Users** tab allows you to create new users with different levels of access to the service instance.
-4. The **Machine Translation Configuration** tab can be used to configure additional Machine Translation engines from other providers, such as [Watson Language Translation](https://new-console.ng.bluemix.net/catalog/services/language-translation/).
+4. The **Machine Translation Configuration** tab can be used to configure additional Machine Translation engines from other
+providers, such as [Watson Language Translation](https://cloud.ibm.com/catalog/services/language-translator).
+5. The **Translation Requests** can be used to create professional translation requests.
 
 ### 3. New Bundle
 Lets go ahead and create a new Bundle. Click the **New Bundle** button and then fill in the new Bundle's information:
@@ -97,15 +95,26 @@ You can now click on one of the Target languages to view the  translated message
 You can now download the translated messages by clicking the **DOWNLOAD** button. Or you can access the translated messages directly in your app by using one of the SDKs or Plug-ins. To get started, head to the [SDKs and Plug-ins](#download) section.
 
 ### 4. Credentials
-In order to access the service instance through the RESTful API, SDKs, or Plug-ins, you will need to provide the necessary credentials. To see the credentials, find the service instance in the IBM Cloud dashboard and click **View Credentials**:
+In order to access the service instance through the RESTful API, SDKs, or Plug-ins, you will need to provide the necessary credentials. Globalization Pipeline supports two type of authentication mechanisms, to read more about them refer [this](https://cloud.ibm.com/docs/services/GlobalizationPipeline?topic=GlobalizationPipeline-gp_iam). For generating Globbalization Pipeline auth credentials, refer [this](https://cloud.ibm.com/docs/services/GlobalizationPipeline/managetranslations.html#adduser). Here we will be focussing on generating IAM auth credentials. To generate the IAM credentials, find the service instance in the IBM Cloud dashboard and click **Service Credentials** (1) and then **New Credentials** (2):
 
-![New Instance](images/new-instance.png "New Instance")
+![Service Credentials Page](images/credentials-page.png "Service Credentials Page")
 
-![Credentials](images/creds.png "Credentials")
+Lets create the credential:
+1. Name of the credential
+2. Role you want to assign to it. Refer [this](https://cloud.ibm.com/docs/services/GlobalizationPipeline?topic=GlobalizationPipeline-gp_iam#gp_iam_ovw) for determining the role you need.
+3. Auto generate the service id or use an existing one.
+4. Press on "Add"
+
+![Credentials Modal](images/credentials-modal.png "Credentials Modal")
+Once the credential is created, you can view it on the same page:
+1. In the list of credentials, go to the entry of credential you created.
+2. Click on `View credentials`.
+3. You will see the credentials.
+
+![View Credentials](images/view-credentials.png "View Credentials")
+
 
 **Note:** If the service instance is connected to an app on IBM Cloud, the credentials can be accessed from the app's environment variables - the SDKs automatically take care of this.
-
-**Caution!** The default credentials shown above provide complete access to the service instance, including the ability to delete and modify bundles. When you are using the service in a production app, it is recommended that you create a new **Reader** account through the **API Users** tab. The Reader account can only read bundle data.
 
 Beta Migration
 --------------
